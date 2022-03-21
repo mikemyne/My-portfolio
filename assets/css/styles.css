@@ -547,7 +547,7 @@ img {
 }
 
 .qualification__calendar{
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
 
@@ -567,12 +567,16 @@ img {
   transform: translate(6px, -7px);
 }
 
-.qualification [data-content]{
+.qualification[data-content]{
   display: none;
 }
 
 .qualification__active[data-content]{
   display: block;
+}
+
+.qualification__button.qualification_active{
+  color: var(--first-color);
 }
 
 /*==================== SERVICES ====================*/
