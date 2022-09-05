@@ -881,6 +881,21 @@ img {
 .footer__social:hover{
   color: var(--first-color-lighter);
 }
+
+.footer__copy{
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  color: var(--text-color-light);
+  margin-top: var(--mb-3);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+  color: #FFF;
+}
+
 /*========== SCROLL UP ==========*/
 
 
