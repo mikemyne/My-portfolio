@@ -1028,8 +1028,18 @@ img {
   }
 
   .about__container,
-  .skills_container{
+  .skills_container,
+  .portfolio__content,
+  .project__container,
+  .contact__container,
+  .footer__container{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qualifications__sections{
+    display: grid;
+    grid-template-columns: .6fr;
+    justify-content: center;
   }
 }
 
